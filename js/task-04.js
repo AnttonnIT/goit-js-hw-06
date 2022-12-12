@@ -11,11 +11,11 @@ const spanEl = document.querySelector("#value");
 let counterValue = 0;
 
 const decrementValue = () => {
-  counterValue--;
+  counterValue -= 1;
   spanEl.textContent = counterValue;
 };
 const incrementValue = () => {
-  counterValue++;
+  counterValue += 1;
   spanEl.textContent = counterValue;
 };
 
