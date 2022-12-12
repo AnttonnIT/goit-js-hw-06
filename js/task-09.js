@@ -10,6 +10,7 @@ function getRandomHexColor() {
 
 const changeColor = () => {
   const color = getRandomHexColor();
+
   bodyEl.style.backgroundColor = color;
 
   spanEl.textContent = color;
